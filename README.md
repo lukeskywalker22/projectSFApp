@@ -3,8 +3,8 @@ The Last Devs - Project SF
 
 We are The Last Developers
 
-Chosen client: Town Council
+Chosen client: GeeksHacking
 
-What does the town council need?
-control, manage, maintain and improve the common property of the residential and commercial properties within its town for the benefit of the residents.
-
+What does the chosen client need?
+- An App which connects programming tutors to potential programming students
+  - This app will involve real time user search, text messaging and possibly calls
