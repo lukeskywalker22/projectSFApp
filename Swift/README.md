@@ -3,4 +3,4 @@ The Last Devs - Project SF
 
 iOS branch
 
-<insert things here>
+Made with Firebase networking and UIKit (not swiftUI)
