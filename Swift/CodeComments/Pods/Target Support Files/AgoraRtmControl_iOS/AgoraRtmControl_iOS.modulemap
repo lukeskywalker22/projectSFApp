@@ -1,0 +1,6 @@
+framework module AgoraRtmControl {
+  umbrella header "AgoraRtmControl_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

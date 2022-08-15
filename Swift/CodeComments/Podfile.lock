@@ -1,4 +1,36 @@
 PODS:
+  - AgoraRtcEngine_iOS (3.7.0.3):
+    - AgoraRtcEngine_iOS/AINS (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/AV1Dec (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/ContentInspect (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/FullAudioFormat (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/ReplayKit (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/ROIEnc (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/RtcBasic (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/SpatialAudio (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/SuperResolution (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/VideoPreprocess (= 3.7.0.3)
+    - AgoraRtcEngine_iOS/VirtualBackground (= 3.7.0.3)
+  - AgoraRtcEngine_iOS/AINS (3.7.0.3)
+  - AgoraRtcEngine_iOS/AV1Dec (3.7.0.3)
+  - AgoraRtcEngine_iOS/ContentInspect (3.7.0.3)
+  - AgoraRtcEngine_iOS/FullAudioFormat (3.7.0.3)
+  - AgoraRtcEngine_iOS/ReplayKit (3.7.0.3)
+  - AgoraRtcEngine_iOS/ROIEnc (3.7.0.3)
+  - AgoraRtcEngine_iOS/RtcBasic (3.7.0.3)
+  - AgoraRtcEngine_iOS/SpatialAudio (3.7.0.3)
+  - AgoraRtcEngine_iOS/SuperResolution (3.7.0.3)
+  - AgoraRtcEngine_iOS/VideoPreprocess (3.7.0.3)
+  - AgoraRtcEngine_iOS/VirtualBackground (3.7.0.3)
+  - AgoraRtm_iOS (1.4.10)
+  - AgoraRtmControl_iOS (1.8.4):
+    - AgoraRtm_iOS (~> 1.4.10)
+  - AgoraUIKit_iOS (1.8.4):
+    - AgoraRtcEngine_iOS/RtcBasic (~> 3.7.0)
+    - AgoraUIKit_iOS/UIKitFull (= 1.8.4)
+  - AgoraUIKit_iOS/UIKitFull (1.8.4):
+    - AgoraRtcEngine_iOS/RtcBasic (~> 3.7.0)
+    - AgoraRtmControl_iOS (= 1.8.4)
   - AppAuth (1.5.0):
     - AppAuth/Core (= 1.5.0)
     - AppAuth/ExternalUserAgent (= 1.5.0)
@@ -164,6 +196,9 @@ PODS:
   - SDWebImage/Core (5.13.2)
 
 DEPENDENCIES:
+  - AgoraRtcEngine_iOS
+  - AgoraRtmControl_iOS
+  - AgoraUIKit_iOS
   - FBSDKCoreKit
   - FBSDKLoginKit
   - Firebase/Analytics
@@ -179,6 +214,10 @@ DEPENDENCIES:
 
 SPEC REPOS:
   trunk:
+    - AgoraRtcEngine_iOS
+    - AgoraRtm_iOS
+    - AgoraRtmControl_iOS
+    - AgoraUIKit_iOS
     - AppAuth
     - FBAEMKit
     - FBSDKCoreKit
@@ -213,6 +252,10 @@ SPEC REPOS:
     - SDWebImage
 
 SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: 549bb3853d5afb18fabca4197786f39f31141da8
+  AgoraRtm_iOS: 95e7070466f42a6494435a7f39fd2b13fc143cbf
+  AgoraRtmControl_iOS: cccc0f33c19b1afb9278c28b4765bf367d87ce9e
+  AgoraUIKit_iOS: 4c52ac91cf52c9d3b508c84563d3c427135647d2
   AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
   FBAEMKit: a899515e45476027f73aef377b5cffadcd56ca3a
   FBSDKCoreKit: 24f8bc8d3b5b2a8c5c656a1329492a12e8efa792
@@ -246,6 +289,6 @@ SPEC CHECKSUMS:
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
   SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
 
-PODFILE CHECKSUM: 678fbba8df2cf8cbb42c3c5628eda7f12bf428a2
+PODFILE CHECKSUM: 653245b45fc87ccafdbc5ec5c419cc43517bac9b
 
 COCOAPODS: 1.11.3
