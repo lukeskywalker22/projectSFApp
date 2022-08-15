@@ -5,6 +5,9 @@ We are The Last Developers
 
 Chosen client: GeeksHacking
 
-What does the chosen client need?
-- An App which connects programming tutors to potential programming students
-  - This app will involve real time user search, text messaging and possibly calls
+Core features of our app
+
+- Connects programming tutors to potential programming students
+- Involves real-time firebase messaging system
+- Involves AgoraRTC call SDK
+- Firebase database real-time search
